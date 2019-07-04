@@ -1,2 +1,21 @@
 <!--pages/shelf/shelf.wxml-->
 <text>pages/shelf/shelf.wxml</text>
+<view class='header'>
+  <navigator></navigator>
+  <text>...</text>
+</view>
+<view class='recommend'>
+  <image></image>
+  <view class='book-info'>
+    <text class='class'>【每日推荐】</text>
+    <view class='title'>厚黑学</view>
+    <text class='author'>李维</text>
+    <text class='type'>召唤笔记</text>
+    <view class='intro'>这是一本书，一本很牛逼的书，总之牛逼就对了</view>
+  </view>
+</view>
+<view>
+  <view style="flex-direction:row;" wx:for="{{array}}" wx:key="{{index}}">
+    <view class="" wx:for="{{item}}"  wx:key="{{item.index}}">{{item.item}}</view>
+  </view>
+</view>
