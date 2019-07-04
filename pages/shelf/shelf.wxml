@@ -16,6 +16,6 @@
 </view>
 <view>
   <view style="flex-direction:row;" wx:for="{{array}}" wx:key="{{index}}">
-    <view class="" wx:for="{{item}}"  wx:key="{{item.index}}">{{item.item}}</view>
+    <view class="" wx:for="{{item}}"  wx:key="{{index}}">{{item}}</view>
   </view>
 </view>
