@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shelf/shelf",
+    "pages/store/store"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8A2BE2",
+    "navigationBarTitleText": "快读小说--永久免费",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#efeff4"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#8A2BE2",
+    "backgroundColor": "#efefef",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/icon/index.png",
+        "selectedIconPath": "image/icon/indexs.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/shelf/shelf",
+        "text": "书架",
+        "iconPath": "image/icon/shelf.png",
+        "selectedIconPath": "image/icon/shelfs.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "书城",
+        "iconPath": "image/icon/store.png",
+        "selectedIconPath": "image/icon/stores.png"
+      }
+    ]
+  }
+}
