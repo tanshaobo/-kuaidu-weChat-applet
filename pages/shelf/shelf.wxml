@@ -1,8 +1,15 @@
 <!--pages/shelf/shelf.wxml-->
-<text>pages/shelf/shelf.wxml</text>
 <view class='header'>
-  <navigator></navigator>
-  <text>...</text>
+  <text class='title'>书架</text>
+  <navigator class="search-btn">搜索书名、作者</navigator>
+  <text class='more'>...</text>
+  <view class='more-box'>
+    <navigator class='sort'>书架排序</navigator>
+    <navigator class='list'>列表模式</navigator>
+    <navigator class='feedback'>意见反馈</navigator>
+    <navigator class='recode'>浏览记录</navigator>
+    <navigator class='mode'>夜间模式</navigator>
+  </view>
 </view>
 <view class='recommend'>
   <image></image>
